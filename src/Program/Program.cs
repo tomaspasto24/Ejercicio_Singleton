@@ -2,11 +2,11 @@
 
 namespace Program
 {
-    class Program
+    class Programs
     {
         static void Main(string[] args)
         {
-            Greeter.Instance.SayHiToTheWorld();
+            Singleton<Greeter>.Instance.SayHiToTheWorld();
         }
     }
 }
